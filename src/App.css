@@ -1,0 +1,108 @@
+:root {
+  --light-color: #f1f6f7;
+  --light-caption-text: #a1a1a1;
+  --100: 100%;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+header .buttons img {
+  width: 22px;
+  padding: 10px;
+  transition: background 400ms ease-in;
+}
+
+header .buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .buttons a:focus {
+  transition: background 300ms ease;
+  background: var(--light-color);
+  border-radius: 5px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+/* 
+#root {
+  height: 100vh;
+  overflow: hidden;
+} */
+
+.slider {
+  position: relative;
+  margin: 0 101px;
+  background-color: var(--light-color);
+}
+main {
+  position: relative;
+}
+.side-menu {
+  position: absolute;
+  z-index: 99999999999;
+  margin-right: -75px;
+  right: 0;
+}
+.side-menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  writing-mode: vertical-lr;
+}
+
+.side-menu ul li {
+  padding: 100px 0;
+  color: var(--light-caption-text);
+}
+
+.person {
+  position: relative;
+}
+.feed-button {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 20px 70px;
+  right: 5%;
+  top: 70%;
+  z-index: 99999999;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.feed-button h2 {
+  padding-bottom: 30px;
+}
+footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .slider img {
+    max-height: 800px;
+    margin-bottom: -50px;
+  }
+}

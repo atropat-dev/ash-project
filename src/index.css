@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "imprima";
+  src: url("./fonts/Imprima-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "imprima";
+  padding: 0 101px;
+}
+.slick-slider.slider.slick-initialized {
+  max-width: 1400px;
+  margin: 0 auto !important;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
