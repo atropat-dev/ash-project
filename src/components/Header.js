@@ -7,10 +7,10 @@ export default function Header() {
     <header>
       <div className="logo">Ash Team</div>
       <div className="buttons">
-        <a href="#">
+        <a href="#" className="link">
           <img src={Day} className="dayIcon" />
         </a>
-        <a href="#">
+        <a href="#" className="link" autoFocus>
           <img src={Night} className="nightIcon" />
         </a>
       </div>

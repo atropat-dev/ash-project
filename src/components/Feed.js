@@ -58,7 +58,7 @@ export default function SimpleSlider() {
               <img src={Arian} alt="" />
               <div className="feed-button">
                 <h2>Developer</h2>
-                <p>front-end</p>
+                <p>UI-UX Designer</p>
               </div>
             </div>
           </h3>

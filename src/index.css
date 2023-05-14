@@ -9,12 +9,12 @@ body {
   padding: 0 101px;
 }
 .slick-slider.slider.slick-initialized {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0 auto !important;
 }
 
 main {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: auto;
 }
 code {
