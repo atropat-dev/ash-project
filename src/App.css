@@ -32,7 +32,7 @@ header .buttons a {
   align-items: center;
 }
 
-header .buttons a:focus {
+.selected {
   transition: background 300ms ease;
   background: var(--light-color);
   border-radius: 5px;
@@ -71,6 +71,15 @@ main {
 .side-menu ul li {
   padding: 100px 0;
   color: var(--light-caption-text);
+}
+
+.slick-prev:before {
+  content: "←";
+  visibility: hidden;
+}
+.slick-next:before {
+  content: "→";
+  visibility: hidden;
 }
 
 .person {

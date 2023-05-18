@@ -3,6 +3,11 @@
   src: url("./fonts/Imprima-Regular.ttf");
 }
 
+a:focus {
+  border: 0px solid !important;
+  outline: none;
+}
+
 body {
   margin: 0;
   font-family: "imprima";
