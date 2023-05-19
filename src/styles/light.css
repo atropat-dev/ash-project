@@ -1,4 +1,13 @@
-#light {
-  background-color: red !important;
-  color: white !important;
+#light .lightButton {
+  background-color: var(--light-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+#light .darkButton {
+  padding: 5px;
+  border-radius: 5px;
+}
+#light #myCheckbox {
+  position: absolute;
+  right: -3px;
 }

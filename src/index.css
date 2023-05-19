@@ -2,13 +2,23 @@
   font-family: "imprima";
   src: url("./fonts/Imprima-Regular.ttf");
 }
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
 
 a:focus {
   border: 0px solid !important;
   outline: none;
 }
-
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
   margin: 0;
   font-family: "imprima";
   padding: 0 101px;

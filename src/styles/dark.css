@@ -1,0 +1,27 @@
+#dark {
+  background-color: #131313 !important;
+  color: white;
+}
+
+#dark .slick-slide {
+  background-color: #1f1f1f;
+}
+#dark .person {
+  background-color: #1f1f1f;
+}
+#dark .darkButton {
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+#dark .lightButton {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#dark #myCheckbox {
+  position: absolute;
+  left: 0px;
+}

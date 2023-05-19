@@ -3,6 +3,11 @@
   --light-caption-text: #a1a1a1;
   --100: 100%;
 }
+#myCheckbox {
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+}
 
 header {
   margin: 0 auto;
@@ -14,6 +19,7 @@ header {
 }
 
 header .buttons {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
